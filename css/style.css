@@ -37,7 +37,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1;
+  z-index: 20;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -70,30 +70,6 @@ body {
 /* MENU-ICON */
 .menu-icon-container {
   display: none;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
-}
-
-.menu-icon-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 2px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-.menu-icon-wrapper:hover {
-  background-color: var(--main-color);
-}
-
-.menu-icon-wrapper:active {
-  background-color: rgb(204, 102, 0);
-}
-
-#menu-icon {
-  height: 40px;
 }
 
 /* MENU AND NAVIGATIONS */
@@ -140,6 +116,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: rgb(216, 216, 216);
+  color: black;
 }
 
 .nav button:hover {
@@ -429,7 +406,7 @@ body {
   align-items: center;
   height: 110px;
   overflow: hidden;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 /* STATION DETAILS */
@@ -716,6 +693,25 @@ body {
 @media (max-width: 576px) {
   .menu-icon-container {
     display: flex;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+
+  .menu-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .menu-icon-wrapper:active {
+    background-color: rgb(210, 210, 210);
+  }
+
+  #menu-icon {
+    height: 40px;
   }
 
   .menu-bar-container {
@@ -733,7 +729,7 @@ body {
 
   .menu-bar {
     margin-left: 10px;
-    height: 70%;
+    height: 90%;
   }
 
   .alert-modal-wrapper,
