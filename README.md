@@ -1,6 +1,6 @@
 # My Local Radio Ghana (mlr GH)
 
-A free online radio streaming platform for listening to some Ghanaian radio stations.
+A free, open-source web application for listening to Ghanaian radio stations online.
 
 ## Features
 
@@ -24,12 +24,11 @@ All audio content, trademarks and station names are the intellectual property of
 
 ## Developer
 
-- Name:
-  Francis Nyantakyi
-
-- Email:
-  francis.nyantakyi.dev@gmail.com
+- **Francis Nyantakyi**
+- Email: francis.nyantakyi.dev@gmail.com
+- GitHub: https://github.com/FrancisNyantakyiDev
 
 ## License
 
-GNU AGPL v3
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+See the `LICENSE` file for details.
