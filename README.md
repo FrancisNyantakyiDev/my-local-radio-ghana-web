@@ -32,4 +32,4 @@ All audio content, trademarks and station names are the intellectual property of
 
 ## License
 
-MIT License
+GNU AGPL v3
